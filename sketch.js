@@ -17,7 +17,7 @@ function setup() {
   click1.onHover = function () {
     this.color = "#AAAAFF";
     this.textColor = "#FFFFFF";
-    this.text = "Yay!";
+    this.text = "plant";
   }
   //This function is ran when the clickable is NOT hovered.
   click1.onOutside = function () {
