@@ -39,7 +39,7 @@ function setup() {
   click2 = new Clickable();
   click2.cornerRadius = 0;
   click2.textScaled = true;
-  click2.text = "Second Chance";
+  click2.text = "hello";
   click2.locate(60, 60);
   click2.resize(250, 100);
   click2.onOutside = function () {
