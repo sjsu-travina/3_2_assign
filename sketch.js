@@ -160,7 +160,7 @@ function draw() {
   background(255);
 
 
-// Switch Function 
+// Switch Function - the frames will be switch from the 'title' page to 'level page' to 'end game' page. When switched to the Level frame, it will take the player to click 10 times (click x10 = points x10) to switch to the end game page. the player will then be able to return to the 'level' page by clicking the background of the 'end game' page.
   switch (state){
     case 'title':
       title();
